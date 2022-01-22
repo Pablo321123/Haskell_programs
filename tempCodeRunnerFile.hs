@@ -1,0 +1,3 @@
+-- disjunto :: [Integer] -> [Integer] -> Bool
+-- disjunto [] [_] = True
+-- disjunto (a : x) c = a == [b | b <- x] 
