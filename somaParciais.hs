@@ -1,6 +1,6 @@
-somasParcias :: [Int] -> [Int]
-somasParcias [] = []
-somasParcias lista =  somar lista 0
+somaParciais :: [Int] -> [Int]
+somaParciais [] = []
+somaParciais lista =  somar lista 0
     
 
 somar :: [Int] -> Int -> [Int]
