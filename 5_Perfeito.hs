@@ -6,4 +6,5 @@ perfeito :: Int -> Bool
 perfeito n = perfeitoAux [x | x <- [1..n-1], n `mod` x == 0] == n
 
 perfeitoAux :: [Int] -> Int
+perfeitoAux [] = 0
 perfeitoAux (x:xs) = x + perfeitoAux xs
